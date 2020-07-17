@@ -40,4 +40,22 @@ public class LinkedListHelper {
 
         return head;
     }
+
+    public static Node removeDuplicate(Node node) {
+        if (node == null || !node.hasNext()) {
+            return node;
+        }
+
+        Node current = node;
+        while (current.hasNext()) {
+            if (current.getVal() == current.getNext().getVal()) {
+                current.setNext(current.getNext().getNext());
+                current = current.getNext();
+            } else {
+                current = current.getNext();
+            }
+        }
+
+        return node;
+    }
 }
