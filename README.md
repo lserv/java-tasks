@@ -12,8 +12,17 @@
 - Tree
   - [Two trees are mirror or not](./src/main/java/io/lenur/tree/Tree.java#L4)
   - [Two trees are equal or not](./src/main/java/io/lenur/tree/Tree.java#L18)  
+
 ## Run tests
 
 ```sh
 mvn test
 ```
+
+## Useful information
+
+### Binary tree
+![Binary tree](img/binary_tree.png)
+
+### Binary search tree
+![Binary search tree](img/binary_search_tree.png)
