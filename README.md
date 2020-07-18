@@ -8,6 +8,7 @@
   - [Remove last node from the Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L4)
   - [Find the middle node from the Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L19)
   - [Remove duplicates from sorted Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L44)
+  - [Find Nth node from the end](./src/main/java/io/lenur/list/LinkedListHelper.java#L62)
 - [Get a duplicate number from an array](./src/main/java/io/lenur/DuplicateNumber.java)
 - Tree
   - [Two trees are mirror or not](./src/main/java/io/lenur/tree/Tree.java#L4)

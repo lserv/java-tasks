@@ -58,4 +58,23 @@ public class LinkedListHelper {
 
         return node;
     }
+
+    public static Node findNthNode(Node node, int nth) {
+        if (node == null) {
+            return null;
+        }
+
+        int index = 1;
+        Node temp = node;
+        while (temp.hasNext()) {
+            temp = temp.getNext();
+            index++;
+        }
+
+        for (int i = 0; i < index - nth; i++) {
+            node = node.getNext();
+        }
+
+        return node;
+    }
 }
