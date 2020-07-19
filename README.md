@@ -17,6 +17,7 @@
 - Binary Search Tree (BST)
   - [Implementation](./src/main/java/io/lenur/bst/BinarySearchTree.java)
   - [Find min and max value](./src/main/java/io/lenur/bst/MinMax.java)
+  - [Find height](./src/main/java/io/lenur/bst/HeightBST.java)
 
 ## Run tests
 
