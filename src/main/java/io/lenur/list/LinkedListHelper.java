@@ -1,5 +1,8 @@
 package io.lenur.list;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class LinkedListHelper {
     public static Node removeLatestNode(Node node) {
         if (node == null || !node.hasNext()) {
@@ -76,5 +79,21 @@ public class LinkedListHelper {
         }
 
         return node;
+    }
+
+    public static boolean hasLoop(Node node) {
+        Set<Node> nodes = new HashSet<>();
+        nodes.add(node);
+
+        while (node.hasNext()) {
+            node = node.getNext();
+            if (nodes.contains(node)) {
+                return true;
+            }
+
+            nodes.add(node);
+        }
+
+        return false;
     }
 }
