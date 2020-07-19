@@ -14,6 +14,8 @@
 - Tree
   - [Two trees are mirror or not](./src/main/java/io/lenur/tree/Tree.java#L4)
   - [Two trees are equal or not](./src/main/java/io/lenur/tree/Tree.java#L18)  
+- Binary Search Tree (BST)
+  - [Implementation](./src/main/java/io/lenur/bst/BinarySearchTree.java)
 
 ## Run tests
 
