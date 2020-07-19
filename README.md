@@ -16,6 +16,7 @@
   - [Two trees are equal or not](./src/main/java/io/lenur/tree/Tree.java#L18)  
 - Binary Search Tree (BST)
   - [Implementation](./src/main/java/io/lenur/bst/BinarySearchTree.java)
+  - [Find min and max value](./src/main/java/io/lenur/bst/MinMax.java)
 
 ## Run tests
 
