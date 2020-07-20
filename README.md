@@ -11,6 +11,7 @@
   - [Find Nth node from the end from a Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L62)
   - [Identify loop in a Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L84)
   - [Reverse a Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L100)
+  - [Is a Circular Linked List or not(the latest node is linked to the first node)](./src/main/java/io/lenur/list/LinkedListHelper.java#L116)
 - [Get a duplicate number from an array](./src/main/java/io/lenur/DuplicateNumber.java)
 - Tree
   - [Two trees are mirror or not](./src/main/java/io/lenur/tree/Tree.java#L4)

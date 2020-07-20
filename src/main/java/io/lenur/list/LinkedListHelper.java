@@ -112,4 +112,17 @@ public class LinkedListHelper {
 
         return node;
     }
+
+    public static boolean isCircular(Node node) {
+        if (node == null || !node.hasNext()) {
+            return false;
+        }
+
+        Node current = node;
+        do {
+            current = current.getNext();
+        } while (current != null && node != current);
+
+        return current == node;
+    }
 }
