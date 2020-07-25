@@ -23,6 +23,8 @@
   - [Is BST or not](./src/main/java/io/lenur/bst/IsBST.java)
 - String
   - [All permutations of String](src/main/java/io/lenur/string/Permutation.java)
+- Array
+  - [Find the duplicate number on a given integer array](src/main/java/io/lenur/array/ArrayHelper.java#L4)
 
 ## Run tests
 
