@@ -21,6 +21,8 @@
   - [Find min and max value](./src/main/java/io/lenur/bst/MinMax.java)
   - [Find height](./src/main/java/io/lenur/bst/HeightBST.java)
   - [Is BST or not](./src/main/java/io/lenur/bst/IsBST.java)
+- String
+  - [All permutations of String](src/main/java/io/lenur/string/Permutation.java)
 
 ## Run tests
 

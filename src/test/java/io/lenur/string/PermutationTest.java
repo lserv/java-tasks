@@ -1,4 +1,4 @@
-package io.lenur.sting;
+package io.lenur.string;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

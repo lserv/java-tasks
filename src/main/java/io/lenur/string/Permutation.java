@@ -1,7 +1,6 @@
-package io.lenur.sting;
+package io.lenur.string;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
