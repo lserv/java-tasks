@@ -35,4 +35,29 @@ public class ArrayHelper {
 
         return unique;
     }
+
+    public static int[] getMissingElements(int[] numbers) {
+        int j = 0;
+        int length = numbers.length;
+        int[] missingTemp = new int[length];
+        int index = 0;
+
+        for (int i = numbers[0]; i < numbers[length - 1]; i++) {
+            int current = numbers[j];
+
+            if (current == i) {
+                while (current == i) {
+                    current = numbers[++j];
+                }
+                continue;
+            }
+
+            missingTemp[index++] = i;
+        }
+
+        int[] missing = new int[index];
+        System.arraycopy(missingTemp, 0, missing, 0, index);
+
+        return missing;
+    }
 }

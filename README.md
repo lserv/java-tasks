@@ -26,6 +26,7 @@
 - Array
   - [Find the duplicate number on a given integer array](src/main/java/io/lenur/array/ArrayHelper.java#L4)
   - [Remove duplicates from an integer array](src/main/java/io/lenur/array/ArrayHelper.java#L16)
+  - [Get missing elements from an integer array](src/main/java/io/lenur/array/ArrayHelper.java#L41)
 
 ## Run tests
 
