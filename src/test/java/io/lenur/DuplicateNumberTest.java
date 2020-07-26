@@ -8,6 +8,7 @@ import java.util.List;
 
 public class DuplicateNumberTest {
     private final DuplicateNumber duplicateNumber = new DuplicateNumber();
+
     @Test
     public void find() {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 3, 4, 5);
