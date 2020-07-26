@@ -12,4 +12,16 @@ public class MatrixHelper {
 
         return transpose;
     }
+
+    public static int[][] sum(int[][] from, int[][] to) {
+        int[][] result = new int[from.length][from[0].length];
+
+        for (int i = 0; i < from.length; i++) {
+            for (int j = 0; j < from[0].length; j++) {
+                result[i][j] = from[i][j] + to[i][j];
+            }
+        }
+
+        return result;
+    }
 }

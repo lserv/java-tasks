@@ -29,6 +29,8 @@
   - [Get missing elements from an integer array](src/main/java/io/lenur/array/ArrayHelper.java#L39)
   - Matrix
       - [Transpose](src/main/java/io/lenur/array/MatrixHelper.java#L4)
+      - [Sum two matrices](src/main/java/io/lenur/array/MatrixHelper.java#L16)
+
 ## Run tests
 
 ```sh
