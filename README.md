@@ -25,6 +25,7 @@
   - [All permutations of String](src/main/java/io/lenur/string/Permutation.java)
 - Array
   - [Find the duplicate number on a given integer array](src/main/java/io/lenur/array/ArrayHelper.java#L4)
+  - [Remove duplicates from an integer array](src/main/java/io/lenur/array/ArrayHelper.java#L16)
 
 ## Run tests
 

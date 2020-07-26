@@ -12,4 +12,27 @@ public class ArrayHelper {
 
         return -1;
     }
+
+    public static int[] removeDuplicates(int[] numbers) {
+        int[] uniqueTemp = new int[numbers.length];
+        int index = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            boolean isDuplicate = false;
+            for (int j = i + 1; j < numbers.length; j++) {
+                if (numbers[i] == numbers[j]) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if (!isDuplicate) {
+                uniqueTemp[index++] = numbers[i];
+            }
+        }
+        int[] unique = new int[index];
+        System.arraycopy(uniqueTemp, 0, unique, 0, index);
+
+        return unique;
+    }
 }
