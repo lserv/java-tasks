@@ -44,6 +44,26 @@ public class LinkedListHelper {
         return head;
     }
 
+    public static Node findMiddleNodeImproved(Node node) {
+        if (node == null || !node.hasNext()) {
+            return node;
+        }
+
+        int index = 1;
+        Node head = node;
+        Node middleNode = null;
+        while (head.hasNext()) {
+            if (index % 2 == 0) {
+                middleNode = head;
+            }
+
+            head = head.getNext();
+            index++;
+        }
+
+        return middleNode;
+    }
+
     public static Node removeDuplicate(Node node) {
         if (node == null || !node.hasNext()) {
             return node;

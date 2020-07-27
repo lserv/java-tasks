@@ -19,7 +19,7 @@ public class LinkedListHelperFindMiddleTest {
     }
 
     @Test
-    public void removeNext() {
+    public void findFromList() {
         Node node1 = new Node(1);
         Node node2 = new Node(2);
         Node node3 = new Node(3);
@@ -29,5 +29,25 @@ public class LinkedListHelperFindMiddleTest {
         Node node = LinkedListHelper.findMiddleNode(node1);
 
         Assertions.assertEquals(node.getVal(), 2);
+    }
+
+    @Test
+    public void findFromOneNodeImprovement() {
+        Node node = LinkedListHelper.findMiddleNodeImproved(new Node(2));
+
+        Assertions.assertEquals(node.getVal(), 2);
+    }
+
+    @Test
+    public void findFromListImprovements() {
+        Node node1 = new Node(1);
+        Node node2 = new Node(2);
+        Node node3 = new Node(3);
+        node1.setNext(node2);
+        node2.setNext(node3);
+
+        Node node = LinkedListHelper.findMiddleNodeImproved(node1);
+
+        Assertions.assertEquals(2, node.getVal());
     }
 }
