@@ -120,7 +120,7 @@ public class LinkedListHelper {
     public static Node reverse(Node node) {
         Node prev = null;
         Node current = node;
-        Node next = null;
+        Node next;
 
         while (current != null) {
             next = current.getNext();
@@ -144,5 +144,21 @@ public class LinkedListHelper {
         } while (current != null && node != current);
 
         return current == node;
+    }
+
+    public static boolean isCyclic(Node node) {
+        Node begin = node;
+        Node tail = node;
+
+        while (tail != null && tail.hasNext()) {
+            begin = begin.getNext();
+            tail = tail.getNext().getNext();
+
+            if (tail == begin) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }
