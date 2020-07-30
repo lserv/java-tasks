@@ -161,4 +161,16 @@ public class LinkedListHelper {
 
         return false;
     }
+
+    public static int getLength(Node node) {
+        if (node == null) {
+            return 0;
+        }
+
+        if (isCyclic(node)) {
+            return -1;
+        }
+
+        return 1 + getLength(node.getNext());
+    }
 }

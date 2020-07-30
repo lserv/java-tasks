@@ -14,6 +14,7 @@
   - [Reverse a Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L120)
   - [Is a Circular Linked List or not(the latest node is linked to the first node)](./src/main/java/io/lenur/list/LinkedListHelper.java#L136)
   - [Is linked list has a cyclic node](./src/main/java/io/lenur/list/LinkedListHelper.java#L149)
+  - [Get the length of a Linked List](./src/main/java/io/lenur/list/LinkedListHelper.java#L165)
 - [Get a duplicate number from an array](./src/main/java/io/lenur/DuplicateNumber.java)
 - Tree
   - [Two trees are mirror or not](./src/main/java/io/lenur/tree/Tree.java#L4)
