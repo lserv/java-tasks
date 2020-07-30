@@ -25,6 +25,8 @@
   - [Is BST or not](./src/main/java/io/lenur/bst/IsBST.java)
 - String
   - [All permutations of String](src/main/java/io/lenur/string/Permutation.java)
+- Compare
+  - [Sort by using Comparable interface](src/main/java/io/lenur/compare/Person.java)
 - Array
   - [Find the duplicate number on a given integer array](src/main/java/io/lenur/array/ArrayHelper.java#L4)
   - [Remove duplicates from an integer array](src/main/java/io/lenur/array/ArrayHelper.java#L16)
