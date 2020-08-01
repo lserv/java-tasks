@@ -1,6 +1,7 @@
 package io.lenur.compare;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class Person implements Comparable<Person> {
     private String name;
@@ -33,6 +34,8 @@ public class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person person) {
+        Objects.requireNonNull(person);
+
         return this
                 .getName()
                 .compareTo(person.getName());
