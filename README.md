@@ -36,6 +36,8 @@
   - Matrix
       - [Transpose](src/main/java/io/lenur/array/MatrixHelper.java#L4)
       - [Sum two matrices](src/main/java/io/lenur/array/MatrixHelper.java#L16)
+- Bit manipulation
+  - [Check the number is power of two](src/main/java/io/lenur/BitManipulation.java#L4)
 
 ## Run tests
 
